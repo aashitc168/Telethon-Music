@@ -44,8 +44,8 @@ async def _(event):
     if event.is_private:
        await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
         [Button.url("➕ 𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐜𝐡𝐚𝐭", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("📲 𝐑𝐞𝐠𝐢𝐬𝐭𝐞𝐫", f"http://www.9987up.cc/#/register?r_code=WGxNp30387")],
-        [Button.url("📁 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", f"https://t.me/aliaxtc"), Button.url("🌐 𝐖𝐞𝐛𝐬𝐢𝐭𝐞", f"https://tclotteryvip.com")],
+        [Button.url("📲 𝐑𝐞𝐠𝐢𝐬𝐭𝐞𝐫", f"http://www.9987up.cc/#/register?r_code=8888817777")],
+        [Button.url("📁 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", f"https://t.me/ashitc9987"), Button.url("👤 𝐂𝐨𝐧𝐭𝐚𝐜𝐭", f"https://t.me/ANIESTKUMAR")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
 
@@ -54,19 +54,19 @@ async def _(event):
 async def start(event):
      if event.is_group:
        await event.reply("**Register now!**",buttons=[
-        [Button.url("Register Here 🤍", f"http://www.9987up.cc/#/register?r_code=WGxNp30387")]])
+        [Button.url("Register Here 🤍", f"http://www.9987up.cc/#/register?r_code=8888817777")]])
        return
 
 @Zaid.on(events.NewMessage(pattern="^[?!/]money$"))
 async def start(event):
      if event.is_group:
        await event.reply("**I know you want to earn money, Come and join**",buttons=[
-        [Button.url("Check it out 🌐", f"https://tclotteryvip.com")]])
+        [Button.url("Check it out 🌐", f"https://t.me/ashitc9987")]])
        return
 
-@Zaid.on(events.NewMessage(pattern="^[?!/]channel$"))
+@Zaid.on(events.NewMessage(pattern="^[?!/]contact$"))
 async def start(event):
      if event.is_group:
        await event.reply("**Contact Us Now**",buttons=[
-        [Button.url("Join Now!", f"https://t.me/aliaxtc")]])
+        [Button.url("Hello 📞", f"https://t.me/ashitc9987")]])
        return
